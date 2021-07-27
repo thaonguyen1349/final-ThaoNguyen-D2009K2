@@ -1,0 +1,243 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+/*header*/
+.header{
+/*	background: lightgrey;*/
+	width: 100%;
+	padding: 32px 100px;
+	display: flex;
+	box-sizing: border-box;
+	position: absolute;
+	z-index: 10;
+}
+.logo{
+	width: 20%;
+}
+.logo a{
+	color: white;
+	text-decoration: none;
+	letter-spacing: 2px;
+/*	font-weight: bold;*/
+	font-size: 25px;
+}
+.logo a:hover{
+	color: black;
+	font-weight: bold;
+}
+.menu{
+	width: 70%;
+}
+.menu ul{
+	display: flex;
+	justify-content: flex-end;
+	list-style: none;
+}
+.menu ul li{
+	margin: 3px 20px 0 20px;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: white;
+}
+.menu ul li a:hover{
+	color: black;
+}
+/*main*/
+.banner{
+	height: 100vh;
+	background: lightgrey;
+	position: relative;
+}
+.banner video{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.information{
+	background: rgba(73,73,73,1.00);
+	width: 70%;
+	height: 400px;
+	margin: 50px 200px;
+}
+.containerc{
+	display: flex;
+}
+.trai{
+	position: relative;
+	top: 25vh;
+	font-size: 30px;
+	left: 20px;
+}
+.phai{
+	position: relative;
+	top: 25vh;
+	font-size: 30px;
+	left: 110px;
+}
+.col-1 a{
+	color: white;
+}
+.col-5 img{
+	width: 400px;
+	margin: 60px 0;
+}
+.text{
+	width: 400px;
+	margin: 110px 60px;
+	color: white;
+}
+.title{
+	text-align: center;
+	margin-bottom: 48px;
+}
+.icon-box{
+/*	background: red;*/
+	text-align: center;
+	overflow: hidden;
+	position: relative;
+}
+.content{
+	width: 262px;
+	height: 182px;
+	background: rgba(0,0,0,0.66);
+	color: white;
+	position: absolute;
+	top: 0;
+	left: 0;
+	visibility: hidden;
+	opacity: 0;
+	transition-duration: 2s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 15px;
+}
+.content1{
+	width: 560px;
+	height: 182px;
+	background: rgba(0,0,0,0.66);
+	color: white;
+	position: absolute;
+	top: 0;
+	left: 0;
+	visibility: hidden;
+	opacity: 0;
+	transition-duration: 2s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0px;
+}
+.content2{
+	width: 560px;
+	height: 182px;
+	background: rgba(0,0,0,0.66);
+	color: white;
+	position: absolute;
+	top: 0;
+	left: 0;
+	visibility: hidden;
+	opacity: 0;
+	transition-duration: 2s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0px 20px;
+}
+.content3{
+	width: 262px;
+	height: 182px;
+	background: rgba(0,0,0,0.66);
+	color: white;
+	position: absolute;
+	top: 0;
+	left: 0;
+	visibility: hidden;
+	opacity: 0;
+	transition-duration: 2s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0px 19px;
+}
+.icon-box:hover .content{
+/*	filter: blur(2px);*/
+	visibility: visible;
+	opacity: 1;
+}
+.icon-box:hover .content1{
+/*	filter: blur(2px);*/
+	visibility: visible;
+	opacity: 1;
+}
+.icon-box:hover .content2{
+/*	filter: blur(2px);*/
+	visibility: visible;
+	opacity: 1;
+}
+.icon-box:hover .content3{
+/*	filter: blur(2px);*/
+	visibility: visible;
+	opacity: 1;
+}
+.box{
+	text-align: center;
+	background: white;
+}
+.box:hover{
+	filter: drop-shadow(10px 10px 10px grey);
+}
+.icon-box1{
+/*	background: red;*/
+	text-align: center;
+	overflow: hidden;
+	position: relative;
+}
+.icon-box1:hover{
+	filter: blur(2px);
+}
+/*footer*/
+.footer{
+	background: rgba(73,73,73,1.00);
+	display: flex;
+}
+.iconf{
+	text-align: center;
+	font-size: 25px;
+	letter-spacing: 15px;
+}
+.iconf a{
+	color: white;
+}
+.contact1{
+	padding-left: 80px;
+/*	background: red;*/
+	color: white;
+}
+.contact1 p{
+	padding-top: 0;
+	padding-left: 140px;
+}
+.contact2{
+/*	display: flex;*/
+/*	margin: 0px 840px;*/
+	color: white;
+}
+.contact2 ul{
+	list-style: none;
+}
+.copyright{
+	color: white;
+	text-align: center;
+	padding-top: 100px;
+}
+.copyright p a{
+	color: blue;
+}
